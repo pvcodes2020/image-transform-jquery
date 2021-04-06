@@ -1,0 +1,30 @@
+body {
+  margin: auto;
+  padding-top: 100px;
+  max-width: 300px;
+}
+.main_div {
+  position: relative;
+}
+h3 {
+  text-align: center;
+  color: teal;
+  opacity: 0;
+}
+.main_div div {
+  position: absolute;
+}
+.main_div div:nth-child(2) {
+  top: 50px;
+  left: 50px;
+}
+.main_div div:nth-child(1) {
+  top: 100px;
+  left: 100px;
+}
+img {
+  height: 300px;
+  width: 300px;
+  border: white 2px solid;
+  transform: rotate3d(1, 1, 30, 90deg);
+}
